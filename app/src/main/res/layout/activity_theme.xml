@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/shape_theme_settings"
+      >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/colorfultheme"
+        android:id="@+id/image_colorful_theme"
+        android:layout_marginBottom="18dp"
+        />
+
+    <ImageView
+        android:layout_below="@id/image_colorful_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_gray_check"
+        android:id="@+id/image_check"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textColor="#424141"
+        android:layout_toLeftOf="@id/image_check"
+        android:layout_below="@id/image_colorful_theme"
+        android:layout_marginRight="8dp"
+        android:textStyle="bold"
+        android:id="@+id/text_view_save"
+        />
+
+    <TextView
+        android:layout_below="@id/image_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Modes"
+        android:textColor="#132CB1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/title"
+        android:layout_marginRight="16dp"
+        />
+    <RadioGroup
+        android:layout_toRightOf="@id/title"
+        android:layout_below="@id/image_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group"
+        android:orientation="vertical"
+        >
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:id="@+id/classic_theme"
+        android:text="Classic Mode"
+        android:textColor="#CA1653"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:id="@+id/dark_theme"
+        android:text="Dark Mode"
+        android:textColor="#CA1653"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:id="@+id/light_theme"
+        android:text="Light Mode"
+        android:textColor="#CA1653"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:id="@+id/gloss_theme"
+        android:text="Gloss Mode"
+        android:textColor="#CA1653"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+    </RadioGroup>
+</RelativeLayout>
