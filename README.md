@@ -4,7 +4,7 @@ Android app uses networking concepts , recyclerView , shared preference , multip
 • Android App which provides the user every day with the news in many fields , uses the Networking concepts to request a Json data from the guardian API and parse it 
 • A user-friendly UI which consists of many fragments, Search option ,change theme options • Shared pereference to save the theme chosen by the user 
 
-Video Link :
+Video Link : https://drive.google.com/file/d/1twDc5Pqu6Zbe6A9hQzzpVdCeizO4iMT0/view?usp=sharing
 
 ![Screenshot (4815)](https://user-images.githubusercontent.com/61096353/141497843-e621c344-b3b4-4214-8c38-c22a5eb71561.png)
 ![Screenshot (4816)](https://user-images.githubusercontent.com/61096353/141497848-e148d036-5c53-4329-8876-9948fdae46f7.png)
